@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/zinebabdellaoui/Desktop/cours_hexagone/cours-c-c++/cours_c_cpp_uml/eval-voyageur-de-commerce",
+      "program": "/Users/zinebabdellaoui/Desktop/cours_hexagone/cours-c-c++/cours_c_cpp_uml/eval-voyageur-de-commerce/build/Debug/outDebug"
+    }
+  ]
+}
