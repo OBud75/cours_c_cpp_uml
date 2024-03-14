@@ -1,4 +1,7 @@
-g++ -o main \
+echo $(which clang++)
+sleep 2
+
+clang++ -std=c++20 -o main \
     main.cpp \
     banking/models.cpp \
     banking/services.cpp \

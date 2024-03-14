@@ -20,7 +20,7 @@ int labyrinth();
 
 
 int main(int argc, char const *argv[]) {
-    auto reset_db = "python database/repositories/reset.py";
+    auto reset_db = "python3 database/repositories/reset.py";
     if (argc == 1) {
         solve_travelling_salesman_problem();
         encryption();
@@ -138,7 +138,7 @@ int create_path_in_graph() {
 
             void load_data() {
                 auto command = (
-                    "python database/repositories/load_data.py "
+                    "python3 database/repositories/load_data.py "
                     + to_string(world_id) + " "
                     + to_string(latitude) + " "
                     + to_string(longitude) + " "
